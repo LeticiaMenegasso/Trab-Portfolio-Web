@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script.js"></script>
+    <title>Letícia Menegasso</title>
+</head>
+<body>
+    <header id="header" class="fixed-header">
+        <h1>Bem-vindo ao meu Portfólio!</h1>
+    </header>
+
+    <main id="inicio">
+        <section class="profile-section">
+            <div class="profile">
+                <img class="profile-img" src="./img/avatar.jpg" alt="Foto de Letícia Menegasso">
+                <h2 class="name">Letícia Menegasso</h2>
+                <p class="profession">Desenvolvedora de Software | Educadora Musical</p>
+            </div>
+            <div class="intro">
+                <p>Olá, muito prazer!
+                    Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonada por criar soluções visuais <br/> e
+                    interativas. Amo trabalhar com tecnologias como HTML, CSS e JavaScript, e estou sempre pronta
+                    para novos desafios.</p>
+            </div>
+        </section>
+
+        <nav class="navigation">
+            <ul>
+                <li><a href="#sobre" class="nav-link">Sobre Mim</a></li>
+                <li><a href="#formacao" class="nav-link">Formação</a></li>
+                <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
+
+        <section id="sobre" class="content-section">
+            <h2>Sobre Mim</h2>
+            <p>Sou uma profissional em desenvolvimento, focada no crescimento pessoal e profissional. Sempre busco equilibrar minha paixão por tecnologia e minha experiência como educadora musical. Meu objetivo é transformar ideias em experiências incríveis na web.</p>
+        </section>
+
+        <section id="formacao" class="content-section">
+            <h2>Formação Acadêmica</h2>
+            <p><strong>Análise e Desenvolvimento de Sistemas</strong></p>
+            <p>Centro Universitário Internacional - UNINTER</p>
+            <p><strong>Educação Musical</strong></p>
+            <p>Experiência prática em projetos sociais e culturais.</p>
+        </section>
+
+        <section id="habilidades" class="content-section">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Desenvolvimento Front-End: HTML, CSS, JavaScript.</li>
+                <li>Desenvolvimento e Aplicações em Python.</li>
+                <li>Design Responsivo e UI/UX.</li>
+                <li>Trabalho em equipe e comunicação eficaz.</li>
+                <li>Experiência em projetos educacionais.</li>
+                <li>Versionamento de código Git e Github.</li>
+            </ul>
+        </section>
+
+        <section id="contato" class="content-section">
+            <h2>Contato</h2>
+            <p>Entre em contato comigo através dos canais abaixo ou envie uma mensagem pelo formulário!</p>
+            <div class="social-links">
+                <a href="https://github.com/LeticiaMenegasso" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/github.png" alt="GitHub">
+                </a>
+                <a href="https://linkedin.com/in/letíciamenegasso/" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://wa.me/5514996626146" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/WhatsApp.svg.webp" alt="WhatsApp">
+                </a>
+            </div>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                
+                <input type="submit" value="Enviar Mensagem">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Letícia Menegasso. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

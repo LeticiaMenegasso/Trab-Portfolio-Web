@@ -1,0 +1,187 @@
+/* style.css */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+/* Header */
+.fixed-header {
+    background-color: rgb(43, 43, 43);
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Section */
+.profile-section {
+    background-color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid rgb(43, 43, 43);
+    margin-bottom: 1rem;
+}
+
+.name {
+    font-size: 1.8rem;
+    color: rgb(43, 43, 43);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.profession {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+.intro p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Navigation */
+.navigation {
+    background-color: rgb(43, 43, 43);
+    padding: 0.5rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navigation .nav-link {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.navigation .nav-link:hover {
+    color: #1abc9c;
+}
+
+/* Content Sections */
+.content-section {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.content-section h2 {
+    font-size: 1.5rem;
+    color: rgb(43, 43, 43);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #1abc9c;
+    display: inline-block;
+    padding-bottom: 0.2rem;
+}
+
+.content-section p, .content-section ul {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 1rem;
+    line-height: 1.8;
+}
+
+.content-section ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}
+
+/* Form Section */
+form {
+    margin-top: 1.5rem;
+}
+
+form label {
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+    color: rgb(43, 43, 43);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form input[type="submit"] {
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #16a085;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: rgb(43, 43, 43);
+    color: #fff;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
